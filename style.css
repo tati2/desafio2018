@@ -1,0 +1,21 @@
+body{
+	margin: 0%;
+	padding: 0%;
+	
+}
+.menu{
+	display: flex;
+	list-style: none;
+	flex-direction: row;
+	justify-content: space-around;
+	
+	}
+ul{
+
+	display: flex;
+	list-style: none;
+	align-items: center;
+	padding: 0 10px 0 10px;
+	
+
+}
