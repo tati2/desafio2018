@@ -7,7 +7,10 @@ body{
 	display: flex;
 	list-style: none;
 	flex-direction: row;
+	align-items: flex-end;
 	justify-content: space-around;
+	width: 30%;
+
 	
 	}
 ul{
@@ -15,7 +18,27 @@ ul{
 	display: flex;
 	list-style: none;
 	align-items: center;
+	
 	padding: 0 10px 0 10px;
 	
 
+}
+.home{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-image: url(./assets/homebg.jpg);
+	align-items: center;
+	height: 100vh;
+	color:#ffffff;
+}
+.texto-home{
+	text-align: center;
+	font-size: 'Roboto, Regular';
+}
+input{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	color:#919191;
 }
